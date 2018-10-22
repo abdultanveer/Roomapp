@@ -16,4 +16,16 @@ public class Word {
     public Word(@NonNull String word) {this.mWord = word;}
 
     public String getWord(){return this.mWord;}
+    public void setWord(String word)
+    {
+        this.mWord = word;
+    }
+
+
+    @Override
+    public String toString() {
+
+        return mWord;
+
+    }
 }
